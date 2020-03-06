@@ -1,10 +1,19 @@
 import React, { Component } from 'react';
-import Product from './Products.jsx'
+import Menu from "./Menu"
+import Presentation from "./Presentation"
+
+
 class App extends Component {
     state = {  }
     render() { 
         return ( 
-            <Product />
+           <div id="body">
+             <Menu />
+             <Presentation />
+               
+
+
+           </div>
          );
     }
 }
