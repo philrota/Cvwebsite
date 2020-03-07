@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Menu from "./Menu"
 import Presentation from "./Presentation"
+import Content from "./Content"
 
 
 class App extends Component {
@@ -10,6 +11,7 @@ class App extends Component {
            <div id="body">
              <Menu />
              <Presentation />
+             <Content />
                
 
 

@@ -6,10 +6,10 @@ class Presentation extends Component {
     state = {  }
     render() { 
         return ( 
-            <div id='presentation'>
-               <div id="background">
-                   <img id="propic" width="145" height="150" src={propic} alt="portrait"></img>
-                   <div id="resume">
+            <div id='presentation'className="container-fluid">
+               <div id="background"className="container-fluid">
+                   <img id="propic" width="140" height="150" src={propic} alt="portrait"></img>
+                   <div id="resume" className="container-fluid">
                        <h3><b>Hey! my name is Philippe</b></h3>
                        <h5>I'm a young enthusiast of web and softwares developing,<br />
                     actually i'm into a deep learning of the various technologies related. <br />

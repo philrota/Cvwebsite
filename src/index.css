@@ -6,45 +6,65 @@
   margin-left: 65%;
 }
 #navbar {
-  background-color: rgba(237, 242, 250,1)
+  background-color: rgba(237, 242, 250, 1);
 }
 #presentation {
   width: 100%;
   margin: auto;
   margin-top: 15px;
-  
-  
-  
 }
 
-#background{
+#background {
   width: 100%;
   height: 100%;
-  margin:auto;
+  margin: auto;
   background-image: url(../src/images/Urban.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  padding:1px;
+  padding: 1px;
   text-align: center;
-  
 }
-#propic{
+#propic {
   border-radius: 50%;
   margin-top: 10%;
   opacity: 0.85;
   border: thick solid #edf2fa;
-  
-  
 }
-#resume{
- 
+#resume {
   background-color: white;
   opacity: 0.7;
   margin-top: 1%;
   margin-bottom: 10px;
 }
-h5{
-  line-height: 35px;
-  font-family: 'Poppins';
+h3 {
+  font-family: "Poppins";
   
 }
+h5 {
+  font-family: "Poppins";
+  line-height: 1.5;
+}
+/* Main Content */
+#main-box{
+  margin-top: 20px;
+}
+#card-two{
+  border-top:thin solid silver;
+}
+.card-text,.card-title,.card-header{
+  line-height: 2.5;
+  font-family: 'Nunito';
+}
+.card-header{
+  font-weight: 800;
+  font-size: 26px;
+  background-color: #edf2fa;
+  
+}
+.card-title{
+  font-weight: 700;
+  
+}
+
+
+
