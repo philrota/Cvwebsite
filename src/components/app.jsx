@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Menu from "./Menu"
 import Presentation from "./Presentation"
 import Content from "./Content"
+import Footer from "./Footer"
 
 
 class App extends Component {
@@ -12,7 +13,7 @@ class App extends Component {
              <Menu />
              <Presentation />
              <Content />
-               
+             <Footer />
 
 
            </div>
