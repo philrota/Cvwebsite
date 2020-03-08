@@ -3,7 +3,7 @@
   margin: auto;
 }
 #responsive-navbar-nav {
-  margin-left: 65%;
+  margin-left: 60%;
 }
 #navbar {
   background-color: rgba(237, 242, 250, 1);
@@ -25,10 +25,11 @@
   text-align: center;
 }
 #propic {
-  border-radius: 50%;
+  border-radius: 5%;
   margin-top: 10%;
   opacity: 0.85;
-  border: thick solid #edf2fa;
+  border: solid #edf2fa;
+  border-width: 3px;
 }
 #resume {
   
@@ -73,7 +74,7 @@ h5 {
   
   
   
-  margin-top: 90px;
+  margin-top: 10px;
   font-family: "Poppins";
 }
 #footer-header {

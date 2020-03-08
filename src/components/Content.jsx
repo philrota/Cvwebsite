@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+
 class Content extends Component {
   constructor(props) {
     super(props);
@@ -7,7 +8,7 @@ class Content extends Component {
 
   render() {
     return (
-      <main id="main-box" className="container-fluid">
+      <main id="main-box" className="container-fluid ">
         <div className="card">
           <h5 className="card-header">Work Summary</h5>
           <div className="card-body">

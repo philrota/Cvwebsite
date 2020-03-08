@@ -3,6 +3,9 @@ import Menu from "./Menu";
 import Presentation from "./Presentation";
 import Content from "./Content";
 import Footer from "./Footer";
+import Coll from "./Coll"
+
+
 
 class App extends Component {
   state = {};
@@ -11,7 +14,7 @@ class App extends Component {
       <div id="body">
         <Menu />
         <Presentation />
-        
+        <Coll />
         <Footer />
       </div>
     );

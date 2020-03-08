@@ -4,7 +4,7 @@ class Header extends Component {
 
   render() {
     return (
-      <header style={{ marginLeft: 40, marginTop: 20, fontFamily: "Nunito" }}>
+      <header style={{ marginLeft: 10, marginTop: 20, fontFamily: "Poppins" }}>
         <h1 style={{ color: "black" }}>Welcome!</h1>
       </header>
     );
