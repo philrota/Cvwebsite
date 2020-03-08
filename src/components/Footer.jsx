@@ -9,7 +9,7 @@ class Footer extends Component {
   }
   render() {
     return (
-      <footer class="conatiner-fluid">
+      <footer class="conatiner-fluid ">
         <Card id="footer">
           <Card.Header id="footer-header">Contacts</Card.Header>
           <Card.Body>

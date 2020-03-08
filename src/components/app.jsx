@@ -11,7 +11,7 @@ class App extends Component {
       <div id="body">
         <Menu />
         <Presentation />
-        <Content />
+        
         <Footer />
       </div>
     );

@@ -31,17 +31,21 @@
   border: thick solid #edf2fa;
 }
 #resume {
+  
+  width:72%;
   background-color: white;
   opacity: 0.7;
   margin-top: 1%;
   margin-bottom: 10px;
+  margin-bottom: 2rem;
 }
+#p-resume{text-align: justify;}
 h3 {
   font-family: "Poppins";
 }
 h5 {
   font-family: "Poppins";
-  line-height: 1.5;
+  
 }
 /* Main Content */
 #main-box {
@@ -54,7 +58,7 @@ h5 {
 .card-title,
 .card-header {
   line-height: 2.5;
-  font-family: "Nunito";
+  font-family: "Poppins";
 }
 .card-header {
   font-weight: 800;
@@ -66,8 +70,11 @@ h5 {
 }
 /*footer*/
 #footer {
-  margin-top: 20px;
-  font-family: "Nunito";
+  
+  
+  
+  margin-top: 90px;
+  font-family: "Poppins";
 }
 #footer-header {
   background-color: #edf2fa;

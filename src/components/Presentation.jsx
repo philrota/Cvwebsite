@@ -16,23 +16,20 @@ class Presentation extends Component {
             alt="portrait"
           ></img>
           <div id="resume" className="container-fluid">
-            <h3>
-              <b>Hey! my name is Philippe</b>
-            </h3>
-            <h5>
-              I'm a young enthusiast of web and softwares developing,
-              <br />
-              actually i'm into a deep learning of the various technologies
-              related. <br />
-              I am interested in new projects or hiring opportunities for new
-              ones,
-              <br />
-              my motivation and dedication leads my way through each project i
-              start developing,
-              <br />
-              so i consider myself a dinamic,motivated and a focused person who
-              is in constantly research of realizing his goals.
-            </h5>
+            <p id="p-resume">
+              <h3>
+                <b>Hey! my name is Philippe</b>
+              </h3>
+              <h5>
+                I'm a young enthusiast of web and softwares developing, actually
+                i'm into a deep learning of the various technologies related.{" "}
+                <br />I am interested in new projects or hiring opportunities
+                for new ones. my motivation and dedication leads my way through
+                each project i start developing, so i consider myself a
+                dinamic,motivated and a focused person who is in constantly
+                research of realizing his goals.
+              </h5>
+            </p>
           </div>
         </div>
       </div>
