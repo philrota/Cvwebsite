@@ -9,11 +9,9 @@ class Menu extends Component {
     return (
       <Navbar collapseOnSelect id="navbar" expand="lg" variant="light">
         <Header />
-        
+
         <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="mr-auto">
-            
-          </Nav>
+          <Nav className="mr-auto"></Nav>
         </Navbar.Collapse>
       </Navbar>
     );

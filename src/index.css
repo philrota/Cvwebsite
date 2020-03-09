@@ -27,26 +27,26 @@
 #propic {
   border-radius: 5%;
   margin-top: 10%;
-  opacity: 0.85;
+  
   border: solid #edf2fa;
   border-width: 3px;
 }
 #resume {
-  
-  width:72%;
+  width: 72%;
   background-color: white;
   opacity: 0.7;
   margin-top: 1%;
   margin-bottom: 10px;
   margin-bottom: 2rem;
 }
-#p-resume{text-align: justify;}
+#p-resume {
+  text-align: justify;
+}
 h3 {
   font-family: "Poppins";
 }
 h5 {
   font-family: "Poppins";
-  
 }
 /* Main Content */
 #main-box {
@@ -71,9 +71,6 @@ h5 {
 }
 /*footer*/
 #footer {
-  
-  
-  
   margin-top: 10px;
   font-family: "Poppins";
 }
@@ -86,4 +83,9 @@ h5 {
 }
 .footer-list {
   list-style: none;
+}
+/*collapsible sections */
+#collapsible-cont {
+  border: thin solid #dfdfdf;
+  border-radius: 4px;
 }
