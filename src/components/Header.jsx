@@ -5,7 +5,7 @@ class Header extends Component {
   render() {
     return (
       <header style={{ marginLeft: 10, marginTop: 20, fontFamily: "Poppins" }}>
-        <h1 style={{ color: "black" }}>Welcome!</h1>
+        <h1 style={{ color: "black" }}>Philippe Rota</h1>
       </header>
     );
   }

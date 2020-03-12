@@ -24,19 +24,19 @@ const CollAbout = () => (
           fontFamily: "Poppins"
         }}
       >
-        <h3>
-          <b>My skills</b>
+        <h3 style={{fontFamily:'Poppins'}}>
+          <b>Skills</b>
         </h3>
       </button>
     </div>
     <UncontrolledCollapse toggler="#toggler-skills">
       <div className="card" style={{ fontFamily: "Poppins" }}>
         <div className="card-body">
-          
-
           <div className="card-title">Hard skills</div>
           <div className="card-text">
-            <h6><b>It</b></h6>
+            <h6>
+              <b>It</b>
+            </h6>
             <ul>
               <li>Working with Microsoft Windows.</li>
               <li>Mail and Microsoft Office.</li>
@@ -44,20 +44,26 @@ const CollAbout = () => (
               <li>Visual Studio.</li>
               <li>SAP ERP.</li>
             </ul>
-            <h6><b>Programming</b></h6>
+            <h6>
+              <b>Programming</b>
+            </h6>
             <ul>
               <li>Front-end (Html,Css,Js,React.js,Bootstrap and JQuery).</li>
               <li>Database Sql.</li>
               <li>Back-end principles of Node.js and Express.</li>
             </ul>
-            <h6><b>Logistics</b></h6>
+            <h6>
+              <b>Logistics</b>
+            </h6>
             <ul>
-                <li>Customs terms and regolamentation</li>
-                <li>Warehousing</li>
-                <li>Stock keep</li>
-                <li>Front and back office</li>
+              <li>Customs terms and regolamentation</li>
+              <li>Warehousing</li>
+              <li>Stock keep</li>
+              <li>Front and back office</li>
             </ul>
-            <h6><b>Relationals</b></h6>
+            <h6>
+              <b>Relationals</b>
+            </h6>
             <ul>
               <li>Deal with costumers.</li>
               <li>Keep a great relation with collegues.</li>
@@ -67,13 +73,13 @@ const CollAbout = () => (
           <div id="card-two" className="card-body">
             <div className="card-title">Soft skills</div>
             <div className="card-text">
-                <ul>
-                    <li>Goals oriented method.</li>
-                    <li>Accuracy and attention.</li>
-                    <li>Time management</li>
-                    <li>Team working optic.</li>
-                    <li>Work independently.</li>
-                </ul>
+              <ul>
+                <li>Goals oriented method.</li>
+                <li>Accuracy and attention.</li>
+                <li>Time management</li>
+                <li>Team working optic.</li>
+                <li>Work independently.</li>
+              </ul>
             </div>
           </div>
         </div>

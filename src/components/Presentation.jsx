@@ -17,10 +17,10 @@ class Presentation extends Component {
           ></img>
           <div id="resume" className="container-fluid">
             <p id="p-resume">
-              <h3>
+              <h3 id="h3-pres">
                 <b>Hey! my name is Philippe</b>
               </h3>
-              <h5>
+              <h5 id="h5-pres">
                 I'm a young enthusiast of web and softwares developing, actually
                 i'm into a deep learning of the various technologies related.{" "}
                 <br />I am interested in new projects or hiring opportunities

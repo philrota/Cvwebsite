@@ -1,6 +1,10 @@
+
 #body {
   width: 100%;
   margin: auto;
+ /* background-image: url(./images/background.jpg);*/
+  
+  
 }
 #responsive-navbar-nav {
   margin-left: 60%;
@@ -29,7 +33,7 @@
   margin-top: 10%;
   
   border: solid #edf2fa;
-  border-width: 3px;
+  border-width: 2px;
 }
 #resume {
   width: 72%;
@@ -88,4 +92,27 @@ h5 {
 #collapsible-cont {
   border: thin solid #dfdfdf;
   border-radius: 4px;
+}
+
+/*media*/
+@media(max-width:380px){ /*iphone x/xs/6/7/8 galaxy s9*/
+  #propic{
+    display:none;
+  }
+ 
+}
+@media all{
+  #h3-pres{
+    text-align: left;
+  }
+  #h5-pres{
+    text-align: left;
+  }
+}
+@media (max-width:334px){
+  #background{
+    background-image: none;
+  }
+  #resume{opacity: 1;
+    background-color: #edf2fa;}
 }

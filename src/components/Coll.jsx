@@ -23,8 +23,8 @@ const Coll = () => (
           fontFamily: "Poppins"
         }}
       >
-        <h3>
-          <b>My resume</b>
+        <h3 style={{fontFamily:'Poppins'}}>
+          <b>Resume</b>
         </h3>
       </button>
     </div>
