@@ -4,17 +4,21 @@ import Presentation from "./Presentation";
 import Content from "./Content";
 import Footer from "./Footer";
 import Coll from "./Coll";
-import CollAbout from "./CollAbout"
-import Skills from "./Skills"
+import CollAbout from "./CollAbout";
+import Skills from "./Skills";
 
 class App extends Component {
-  state = {};
+  state = {
+    
+  };
+  
+  
   render() {
     return (
       <div id="body">
         <Menu />
         <Presentation />
-        <CollAbout  />
+        <CollAbout />
         <Coll />
         <Skills />
         <Footer />

@@ -9,10 +9,10 @@ class Footer extends Component {
   }
   render() {
     return (
-      <footer class="conatiner-fluid ">
+      <footer class="conatiner-fluid " style={{textAlign: "center"}}>
         <Card id="footer">
           <Card.Header id="footer-header">Contacts</Card.Header>
-          <Card.Body>
+          <Card.Body style={{textAlign:"center"}}>
             <div className="container">
               <div className="row">
                 <div className="col">
@@ -43,6 +43,7 @@ class Footer extends Component {
                   </ul>
                 </div>
               </div>
+              <hr />
             </div>
           </Card.Body>
         </Card>

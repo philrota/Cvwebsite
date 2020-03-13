@@ -2,13 +2,13 @@ import React from "react";
 import { UncontrolledCollapse, Button, CardBody, Card } from "reactstrap";
 
 const CollAbout = () => (
-  <div>
+  <div style={{textAlign: "center",}}>
     <div
       id="collapsible-cont"
       style={{
         width: "100%",
         margin: "auto",
-        textAlign: "left",
+        
         backgroundColor: "#edf2fa",
         marginTop: 20
       }}
@@ -21,12 +21,14 @@ const CollAbout = () => (
           marginLeft: 10,
           marginTop: 20,
           border: "thin solid black",
-          fontFamily: "Poppins"
+          fontFamily: "Poppins",
+          backgroundColor:"#cfd2e0"
         }}
       >
-        <h3 style={{fontFamily:'Poppins'}}>
+        <h3  style={{fontFamily:'Poppins'}}>
           <b>Skills</b>
         </h3>
+        
       </button>
     </div>
     <UncontrolledCollapse toggler="#toggler-skills">
