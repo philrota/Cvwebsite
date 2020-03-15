@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Card from "react-bootstrap/Card";
 import linkedin from "../images/linkedin.png";
+import GitHub from "../images/GitHub.png"
 
 class Footer extends Component {
   constructor(props) {
@@ -26,6 +27,9 @@ class Footer extends Component {
                         href="https://www.linkedin.com/in/philippe-rota-02541916b/"
                       >
                         <img src={linkedin} alt="linkedin" />{" "}
+                      </a>
+                      <a id="github" rel="noopener noreferrer" target="_blank" href="https://github.com/philrota">
+                        <img width="24" height="24" src={GitHub} alt="github link" />
                       </a>
                     </li>
                     <li>Italy,Lombardy,Bergamo</li>
